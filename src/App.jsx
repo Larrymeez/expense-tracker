@@ -24,7 +24,7 @@ function App() {
 
   const handleAddExpense = (expense) => {
     console.log('Adding expense:', expense);
-    setExpenses((prev) => [...prev, expense]); // ✅ functional update
+    setExpenses((prev) => [...prev, expense]);
   };
 
   const filteredExpenses = expenses.filter((expense) =>

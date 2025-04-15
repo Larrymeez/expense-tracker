@@ -115,3 +115,11 @@ input[type="text"] {
   color: white;
   z-index: 1;
 }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #b0ca7a;
+  color: #333;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
